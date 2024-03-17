@@ -2,10 +2,10 @@
 
 <div>
   <a href="https://github.com/Marcs-paulo/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Marcs-paulo&show_icons=true&theme=dark" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Marcs-Paulo&show_icons=true&theme=dark" />
   </a>
   <a href="https://github.com/Marcs-paulo/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Marcs-paulo&layout=compact&theme=dark"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Marcs-Paulo&layout=compact&theme=dark"/>
   </a>
 </div>
 
