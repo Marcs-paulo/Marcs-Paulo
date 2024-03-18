@@ -1,4 +1,4 @@
-### Olá eu me chamo Marcos 
+### Olá eu me chamo Marcos 👋
 
 <div>
   <a href="https://github.com/Marcs-paulo/github-readme-stats">
