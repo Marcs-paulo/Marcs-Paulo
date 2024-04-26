@@ -1,5 +1,9 @@
 ### Olá eu me chamo Marcos 👋
 
+- 🌱 Atualmente estou aprendendo um pouco sobre React Native, IA e Machine learning, além de estar aprofundando meus conhecimento em algun sistemas embarcados
+- 👯 Estou procurando colobarar com meu desenvolvimento pessoal e empressarial visando o crescimento das minhas concedentes
+- 😄 Apelido: Mp
+
 <div>
   <a href="https://github.com/Marcs-paulo/github-readme-stats">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Marcs-Paulo&show_icons=true&theme=dark" />
