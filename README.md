@@ -1,7 +1,7 @@
 ### Olá eu me chamo Marcos 👋
 
 - 🌱 Atualmente, estou aprendendo um pouco sobre React Native, IA e Machine Learning, além de estar aprofundando meu conhecimento em alguns sistemas embarcados.
-- 👯 Estou procurando colaborar com meu desenvolvimento pessoal e empresarial, bem como promover o crescimento das minhas concessões.
+- 👯 Estou procurando colaborar com meu desenvolvimento pessoal e empresarial, bem como promover o crescimento das minhas concedentes.
 - 😄 Apelido: Mp.
 
 <div>
