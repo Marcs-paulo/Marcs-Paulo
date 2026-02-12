@@ -3,17 +3,6 @@
 - 🌱 Atualmente, estou aprendendo um pouco sobre React Native, IA e Machine Learning, além de estar aprofundando meu conhecimento em alguns sistemas embarcados.
 - Estou procurando colaborar com meu desenvolvimento pessoal e empresarial, bem como promover o crescimento das minhas concedentes.
 
-
-<div>
-  <a href="https://github.com/Marcs-paulo/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Marcs-Paulo&show_icons=true&theme=dark" />
-  </a>
-  <a href="https://github.com/Marcs-paulo/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Marcs-Paulo&layout=compact&theme=dark"/>
-  </a>
-</div>
-
-
 <div style="display: inline_block"><br>
   <img align="center" alt="MP-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="MP-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
