@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3200&pause=900&color=22C55E&center=true&vCenter=true&width=620&lines=Marcos+Paulo+Dantas+Joaquim;Engenharia+de+Computa%C3%A7%C3%A3o+%E2%80%94+UFRN;Sistemas+embarcados+%C2%B7+IoT+%C2%B7+Mobile" alt="Marcos Paulo Dantas Joaquim" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=27&duration=3200&pause=900&color=22C55E&center=true&vCenter=true&width=650&lines=Marcos+Paulo+Dantas+Joaquim;Engenharia+de+Computa%C3%A7%C3%A3o+%E2%80%94+UFRN;Sistemas+embarcados+%C2%B7+IoT+%C2%B7+Mobile" alt="Marcos Paulo Dantas Joaquim" />
 
-<p>
-  <em>Construo sistemas que precisam funcionar quando a infraestrutura falha.</em>
-</p>
+### Construo sistemas que precisam funcionar quando a infraestrutura falha.
 
 <p>
   <a href="https://www.linkedin.com/in/marcos-paulo-dantas-joaquim-244319254">
@@ -34,7 +32,6 @@ formação:    Engenharia de Computação — UFRN
 base:        Técnico em Redes de Computadores — EEEP MCPF
 foco:        sistemas embarcados · IoT · aplicações móveis
 domínios:    agronegócio · saúde · educação
-gosto de:    pouca memória, sem rede, hardware barato, usuário não técnico
 ```
 
 ---
@@ -47,6 +44,7 @@ gosto de:    pouca memória, sem rede, hardware barato, usuário não técnico
 
 ### 💧 SIS
 **Sistema Inteligente de Irrigação**
+
 `Cofundador · Código e hardware · desde 2023`
 
 Irrigação por gotejamento automatizada para pequenos e médios produtores. Decide
@@ -61,10 +59,6 @@ condução dos ensaios de campo com cultura.
 <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" />
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
 
-🥇 **1º lugar** — XI MOCICULT
-🥇 **1º lugar** — Feira do Conhecimento
-🎯 Selecionado para a **FENECIT**
-
 <sub>🔒 PI em processo de proteção — código e detalhes técnicos não são públicos.
 Disponível para conversa sob NDA.</sub>
 
@@ -73,6 +67,7 @@ Disponível para conversa sob NDA.</sub>
 
 ### 🧠 NeuroBeep
 **Neurofeedback e robótica assistiva**
+
 `Plataforma de software · UFRN–UFPE`
 
 Crianças com limitação motora severa ficam de fora da robótica educacional porque
@@ -88,9 +83,11 @@ padrão científico internacional, para permitir reuso por outros laboratórios.
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
 <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
 
-[`→ repositório`](https://github.com/Marcs-paulo/NeuroBeep) · [`→ firmware`](https://github.com/Marcs-paulo/teste_neurobeep)
+[`→ primeiras versões do app`](https://github.com/Marcs-paulo/NeuroBeep) · [`→ firmware`](https://github.com/Marcs-paulo/teste_neurobeep)
 
-<sub>🔬 Pesquisa em andamento, publicação em preparação.</sub>
+<sub>📌 Os repositórios públicos guardam as <b>primeiras versões</b> do aplicativo.
+O projeto evoluiu depois para uma arquitetura bem maior em Tauri, ainda não
+publicada.</sub>
 
 </td>
 </tr>
@@ -99,6 +96,7 @@ padrão científico internacional, para permitir reuso por outros laboratórios.
 
 ### 🎀 NaraEdu
 **Boneca educacional para registro por voz**
+
 `Firmware e especificação de API · Laboratório TEAM, UFRN`
 
 O registro de ocorrências pedagógicas se perde porque exige da professora tempo
@@ -118,6 +116,7 @@ com conectividade precária.
 
 ### ⚙️ Automação de bombeamento
 **Projeto pessoal**
+
 `Hardware + mobile`
 
 Automação do motor que bombeia água de um poço para as caixas d'água de uma
@@ -142,38 +141,49 @@ restrição concreta, usuário que não é técnico, e precisa funcionar todo di
 
 <div align="center">
 
-**Embarcado e IoT**
+<table>
+<tr>
+<td align="center" width="33%">
 
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
-<img src="https://img.shields.io/badge/ESP--IDF-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
-<img src="https://img.shields.io/badge/PlatformIO-FF7F00?style=for-the-badge&logo=platformio&logoColor=white" />
-<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
+**Embarcado**
 
-**Mobile e Web**
+<img src="https://skillicons.dev/icons?i=cpp,c,arduino&theme=dark" alt="C++, C, Arduino" />
 
-<img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
+<img src="https://img.shields.io/badge/ESP--IDF-E7352C?style=flat-square&logo=espressif&logoColor=white" />
+<img src="https://img.shields.io/badge/PlatformIO-FF7F00?style=flat-square&logo=platformio&logoColor=white" />
 
-**Dados e backend**
+</td>
+<td align="center" width="33%">
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+**Aplicação**
 
-**Também uso**
+<img src="https://skillicons.dev/icons?i=ts,js,react,tauri&theme=dark" alt="TypeScript, JavaScript, React, Tauri" />
 
-<img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
-<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" />
+
+</td>
+<td align="center" width="33%">
+
+**Dados**
+
+<img src="https://skillicons.dev/icons?i=py,postgres,sqlite,firebase&theme=dark" alt="Python, PostgreSQL, SQLite, Firebase" />
+
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
+
+</td>
+</tr>
+</table>
+
+**Também trabalho com**
+
+<img src="https://skillicons.dev/icons?i=rust,go,php,git,github&theme=dark" alt="Rust, Go, PHP, Git, GitHub" />
 
 </div>
+
+> **A linguagem é a parte fácil.** Já entreguei em C++, TypeScript, Python, Rust e
+> PHP, e aprendo a próxima conforme o projeto pedir — o que se leva de um sistema
+> para outro é raciocínio sobre restrição, não sintaxe.
 
 ---
 
@@ -192,12 +202,12 @@ Onde o código realmente está — e por quê:
 | Camada | Onde | Situação |
 |---|---|---|
 | **Firmware embarcado** (C++ / ESP-IDF) | SIS, NaraEdu | privado — PI e acordo de laboratório |
-| **Plataforma assistiva** (Rust / TS) | [NeuroBeep](https://github.com/Marcs-paulo/NeuroBeep) | público |
-| **Mobile e telemetria** (React Native) | [NeuroApp](https://github.com/Marcs-paulo/NeuroApp), [Motor](https://github.com/Marcs-paulo/Motor) | público |
+| **Plataforma assistiva** (Rust / Tauri / TS) | NeuroBeep, versão atual | não publicada |
+| **Mobile e telemetria** (React Native) | [NeuroApp](https://github.com/Marcs-paulo/NeuroApp), [NeuroBeep](https://github.com/Marcs-paulo/NeuroBeep), [Motor](https://github.com/Marcs-paulo/Motor) | público — versões iniciais |
 
 <sub>O que aparece aqui é uma parte do que eu faço. Os projetos de maior peso
-técnico estão sob confidencialidade — posso falar sobre arquitetura e decisões
-de projeto em conversa.</sub>
+técnico estão sob confidencialidade ou ainda não publicados — posso falar sobre
+arquitetura e decisões de projeto em conversa.</sub>
 
 ---
 
