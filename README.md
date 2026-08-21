@@ -2,108 +2,103 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Marcs-paulo/Marcs-Paulo/main/assets/hero-dark.svg">
-  <img src="https://raw.githubusercontent.com/Marcs-paulo/Marcs-Paulo/main/assets/hero-light.svg" alt="Marcos Paulo Dantas Joaquim — Engenharia de Computação, UFRN. Escrevo da placa ao aplicativo." width="100%">
+  <img src="https://raw.githubusercontent.com/Marcs-paulo/Marcs-Paulo/main/assets/hero-light.svg" alt="Marcos Paulo Dantas Joaquim — Full-Stack Embedded & IoT Engineer" width="100%">
 </picture>
 
-<a href="https://www.linkedin.com/in/marcos-paulo-dantas-joaquim-244319254">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:mp.dantasjoaquim0102@gmail.com">
-  <img src="https://img.shields.io/badge/mp.dantasjoaquim0102@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="E-mail" /></a>
+### **Full-Stack Embedded Systems & IoT Engineer**
+*Do silício ao aplicativo. Conectando hardware, firmware, protocolos e experiência do usuário.*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcos-paulo-dantas-joaquim-244319254)
+[![E-mail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mp.dantasjoaquim0102@gmail.com)
+[![Location](https://img.shields.io/badge/Localização-Natal--RN-blue?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
 </div>
 
 <br>
 
-Estudei técnico em redes no interior do Ceará e hoje faço Engenharia de
-Computação na UFRN. Foi no técnico que peguei o primeiro microcontrolador, e
-desde então quase tudo que eu construí tem uma placa em algum lugar.
+## 💡 Sobre Mim & Proposta de Valor
 
-O que eu sei fazer, e o que eu gosto de fazer, é o produto inteiro: a placa, o
-firmware, o protocolo que ela usa para conversar, o servidor que recebe e o
-aplicativo que a pessoa abre. Já escrevi as duas pontas do mesmo sistema, e é
-por isso que eu costumo resolver o problema que fica no meio, entre quem faz
-hardware e quem faz software.
+Sou Engenheiro de Computação em formação na **UFRN** com bagagem técnica sólida em Redes. Minha especialidade é fechar o ciclo completo de um produto físico-digital: **projetar a placa, escrever o firmware, desenhar o protocolo de comunicação, subir o servidor backend e entregar o aplicativo mobile.**
 
-## Como eu trabalho
+A maioria dos problemas de engenharia em IoT surge no "limbo" entre a equipe de hardware e a de software. Como domino as duas pontas da arquitetura, elimino esse atrito, reduzindo tempo de desenvolvimento e falhas de integração.
 
-**Meço antes de escolher.** Num projeto pessoal eu precisava de um modelo de
-busca semântica. Em vez de pegar o mais citado, montei um conjunto de perguntas
-reais e medi os candidatos contra um método lexical simples, que usei como piso.
-O modelo mais popular ficou 37% abaixo desse piso, e eu descartei. Prefiro
-perder um dia medindo a carregar uma escolha ruim por seis meses.
+---
 
-**Registro por que, não só o quê.** Uma vez publiquei um número de desempenho
-que estava contaminado: eu não tinha reiniciado o serviço entre duas medições e
-a memória da GPU não foi liberada. Refiz o teste limpo, o número caiu de 15,9
-para 3,4, e eu corrigi o registro em vez de apagar. Quem for mexer depois
-precisa saber o que já foi tentado e o que deu errado.
+## 🛠️ Stack Técnica
 
-**Projeto para quem não é técnico.** O que eu construo vai parar na mão de
-agricultor, professora, terapeuta. Se a pessoa precisa de manual para usar, eu
-errei alguma coisa antes.
+| Domínio | Tecnologias & Ferramentas |
+| :--- | :--- |
+| **Core / Diário** | `C++` • `ESP-IDF` • `TypeScript` • `React Native` • `Python` |
+| **Entregas & Projetos** | `Rust` • `Tauri` • `Go` • `PHP` |
+| **Banco de Dados** | `PostgreSQL` • `SQLite` • `Supabase` • `Firebase` |
+| **Tooling & Devops** | `PlatformIO` • `Expo` • `Git` • `Linux` |
 
-## O que eu uso
+> *Filosofia de Stack:* A linguagem é apenas uma ferramenta. Adapto a stack conforme as restrições de memória, processamento e conectividade do projeto.
 
-```
-todo dia      C++ e ESP-IDF · React Native · TypeScript · Python
-já entreguei  Rust · Tauri · Go · PHP
-dados         PostgreSQL · SQLite · Firebase · Supabase
-ferramentas   PlatformIO · Expo · Git
-```
+---
 
-A linguagem é a parte fácil. Rust e Tauri eu aprendi porque o projeto pediu, e
-foi assim com quase todas as outras.
+## ⚙️ Princípios de Engenharia
 
-## SIS · irrigação inteligente
+#### 📊 1. Decisão Baseada em Dados (Data-Driven)
+Não adoto tecnologias por hype. Em um benchmark recente para busca semântica, criei um conjunto de testes contra uma baseline lexical simples. O modelo de IA mais popular performou **37% abaixo do piso mínimo**. Descartei a solução em 1 dia, evitando meses de débito técnico.
 
-**Cofundador. Firmware, aplicativo e plataforma de dados, desde 2023.**
+#### 🔍 2. Transparência Científica & Auditabilidade
+Identifiquei que um teste de desempenho publicado estava contaminado por falta de limpeza de memória na GPU. Em vez de apagar o registro, refiz o teste (ajustando a métrica de 15,9 para 3,4) e documentei o erro. Código confiável exige histórico transparente de falhas e aprendizados.
 
-Irrigação por gotejamento que decide sozinha quando e quanto irrigar, com base
-agronômica, em propriedade que não tem internet. Escrevi o firmware da placa, o
-aplicativo em React Native e a camada de dados, e conduzi os ensaios de campo
-com cultura de verdade.
+#### 🎯 3. Design Orientado ao Usuário Final (Zero-Friction UX)
+Meus sistemas são feitos para produtores rurais, professores e terapeutas. Se o usuário precisa abrir um manual para executar uma ação simples no dia a dia, a falha foi de engenharia e design.
 
-O projeto nasceu no ensino técnico e virou empresa. A Agritech, do Grupo
-Brisanet, chamou a equipe para estagiar por causa dele.
+---
 
-O código é fechado. A propriedade intelectual é de cinco sócios e a patente
-ainda não foi depositada, então eu não publico o mecanismo. Arquitetura e
-decisões de projeto eu converso sem problema.
+## 🚀 Case Studies & Projetos de Destaque
 
-## Outros projetos
+### 🌾 SIS — Irrigação Inteligente Offline
+**Cofundador | Firmware, App Mobile & Data Layer** *(2023 – Atual)*
+* Systema de irrigação de precisão por gotejamento totalmente autônomo com inteligência agronômica embotada para propriedades sem conectividade com a internet.
+* **Inovação:** Desenvolvimento de arquitetura *offline-first*, desde o firmware até a sincronização mobile e modelo preditivo de rega.
+* **Impacto Comercial:** O projeto gerou contratação/estágio direto pela **Agritech (Grupo Brisanet)**.
+* *(Propriedade intelectual de 5 sócios. Código fechado aguardando depósito de patente, mas arquitetura aberta a discussões técnicas).*
 
-**NeuroBeep** · Plataforma de neurofeedback para robótica assistiva, cooperação
-UFRN–UFPE. Ela abre a robótica educacional para criança que não consegue
-executar o gesto que toda interface pressupõe. Cuido da parte que roda sem rede
-e do formato dos dados, para outro laboratório conseguir reaproveitar. Os
-repositórios públicos são as primeiras versões do aplicativo; hoje o projeto é
-bem maior, em Tauri, e ainda não foi publicado.
-[`app`](https://github.com/Marcs-paulo/NeuroApp) ·
-[`versões iniciais`](https://github.com/Marcs-paulo/NeuroBeep) ·
-[`firmware`](https://github.com/Marcs-paulo/teste_neurobeep)
+---
 
-**NaraEdu** · Boneca que registra ocorrência de sala de aula por voz, no
-Laboratório TEAM da UFRN. A professora não tem tempo de anotar durante a aula,
-então o registro passa para um objeto que já está ali: um gesto, a voz, e
-pronto. Firmware em ESP32-S3 e a especificação da API.
+### 🧠 NeuroBeep — Robótica Assistiva e Neurofeedback
+**Cooperação UFRN–UFPE | Engenharia de Firmware e Sincronização**
+* Interface de neurofeedback projetada para permitir que crianças com restrições motoras severas controlem sistemas robóticos educacionais sem a necessidade de gestos físicos.
+* **Atuação:** Responsável pelo subsistema de borda (sem rede), otimização de latência e padronização dos dados para reutilização em laboratórios parceiros.
+* [`App Mobile`](https://github.com/Marcs-paulo/NeuroApp) • [`Repositório Inicial`](https://github.com/Marcs-paulo/NeuroBeep) • [`Firmware Base`](https://github.com/Marcs-paulo/teste_neurobeep)
 
-**Motor** · Automação da bomba que puxa água do poço para as caixas de casa,
-com rádio de longo alcance e controle pelo celular. Começou como problema
-doméstico e é o tipo de projeto que eu gosto: restrição concreta e alguém usando
-todo dia. [`repositório`](https://github.com/Marcs-paulo/Motor)
+---
 
-## Formação
+### 🧸 NaraEdu — IoT Educacional & Processamento de Voz
+**Laboratório TEAM (UFRN) | Hardware & API Specs**
+* Dispositivo inteligente no formato de boneca que registra e categoriza ocorrências pedagógicas em sala de aula através de comandos de voz e gestos, eliminando a carga burocrática dos professores.
+* **Atuação:** Desenvolvimento do firmware em **ESP32-S3** e especificação completa dos contratos da API.
 
-**Engenharia de Computação** · UFRN, Natal/RN · em curso
+---
 
-**Técnico em Redes de Computadores** · EEEP Prof.ª Maria Célia Pinheiro Falcão,
-Pereiro/CE · concluído
+### 🚰 Motor — Automação de Recursos Hídricos Domésticos
+**Projeto Pessoal / Solução de Problema Real**
+* Sistema de telemetria e acionamento remoto de bombas de poço artesiano via radiofrequência de longo alcance (LoRa/RF) com monitoramento em tempo real via celular.
+* [`Repositório do Código`](https://github.com/Marcs-paulo/Motor)
 
-**Estágio em desenvolvimento de sistemas de irrigação** · Agritech, Grupo
-Brisanet · 2024
+---
 
-<br>
+## 🎓 Formação & Experiência
 
-Estou em Natal e aberto a vagas em sistemas embarcados, IoT e mobile. Se o
-problema envolve uma placa e alguém do outro lado esperando funcionar, me chama:
-**mp.dantasjoaquim0102@gmail.com**
+* 🎓 **Engenharia de Computação** — Universidade Federal do Rio Grande do Norte (UFRN)
+* 🎓 **Técnico em Redes de Computadores** — EEEP Prof.ª Maria Célia Pinheiro Falcão
+* 💼 **Estágio em Sistemas de Irrigação IoT** — Agritech / Grupo Brisanet *(2024)*
+
+---
+
+<div align="center">
+
+### 💬 Vamos construir algo juntos?
+
+Estou baseado em **Natal/RN** e disponível para oportunidades em **Sistemas Embarcados, IoT, Firmware e Desenvolvimento Mobile**.
+
+Se você tem um desafio que envolve hardware, conectividade e entrega de software de ponta a ponta:
+
+📩 **[Envie um e-mail](mailto:mp.dantasjoaquim0102@gmail.com)** | 🔗 **[Conecte-se no LinkedIn](https://www.linkedin.com/in/marcos-paulo-dantas-joaquim-244319254)**
+
+</div>
