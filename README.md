@@ -2,259 +2,108 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Marcs-paulo/Marcs-Paulo/main/assets/hero-dark.svg">
-  <img src="https://raw.githubusercontent.com/Marcs-paulo/Marcs-Paulo/main/assets/hero-light.svg" alt="Marcos Paulo Dantas Joaquim — Engenharia de Computação, UFRN" width="100%">
+  <img src="https://raw.githubusercontent.com/Marcs-paulo/Marcs-Paulo/main/assets/hero-light.svg" alt="Marcos Paulo Dantas Joaquim — Engenharia de Computação, UFRN. Escrevo da placa ao aplicativo." width="100%">
 </picture>
 
-<p>
-  <a href="https://www.linkedin.com/in/marcos-paulo-dantas-joaquim-244319254">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:mp.dantasjoaquim0102@gmail.com">
-    <img src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Marcs-paulo&style=for-the-badge&color=6366F1&label=VISITAS" alt="visitas" />
-</p>
+<a href="https://www.linkedin.com/in/marcos-paulo-dantas-joaquim-244319254">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:mp.dantasjoaquim0102@gmail.com">
+  <img src="https://img.shields.io/badge/mp.dantasjoaquim0102@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="E-mail" /></a>
 
 </div>
-
----
-
-## Sobre
-
-Trabalho na fronteira entre **firmware e produto**: dispositivos que continuam
-operando sem rede, aplicativos que sincronizam quando a conexão volta, e a camada
-de dados que liga os dois.
-
-É um padrão que se repete nos projetos abaixo — irrigação no campo, sessões
-clínicas em escola pública, registro de voz em sala de aula. Nos três, **operar
-offline é requisito, não recurso extra**.
-
-```yaml
-formação:    Engenharia de Computação — UFRN
-base:        Técnico em Redes de Computadores — EEEP MCPF
-foco:        sistemas embarcados · IoT · aplicações móveis
-domínios:    agronegócio · saúde · educação
-```
-
----
-
-## 🚀 Projetos
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 💧 SIS
-**Sistema Inteligente de Irrigação**
-
-`Cofundador · Código e hardware · desde 2023`
-
-Irrigação por gotejamento automatizada para pequenos e médios produtores. Decide
-sozinha o momento e a quantidade de água, com fundamento agronômico, e opera em
-propriedade **sem infraestrutura de internet**.
-
-Responsável pelo firmware embarcado, aplicativo móvel, plataforma de dados e pela
-condução dos ensaios de campo com cultura.
-
-<img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" />
-<img src="https://img.shields.io/badge/LoRa-0F62FE?style=flat-square" />
-<img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-
-<sub>🔒 PI em processo de proteção — código e detalhes técnicos não são públicos.
-Disponível para conversa sob NDA.</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 🧠 NeuroBeep
-**Neurofeedback e robótica assistiva**
-
-`Plataforma de software · UFRN–UFPE`
-
-Crianças com limitação motora severa ficam de fora da robótica educacional porque
-toda interface pressupõe um gesto que elas não conseguem executar. A plataforma
-oferece um canal de comando que **não depende do corpo**.
-
-Atuo na arquitetura **offline-first** — a sessão roda inteira sem rede e
-sincroniza depois com verificação de integridade — e na organização dos dados em
-padrão científico internacional, para permitir reuso por outros laboratórios.
-
-<img src="https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=black" />
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
-
-[`→ primeiras versões do app`](https://github.com/Marcs-paulo/NeuroBeep) · [`→ firmware`](https://github.com/Marcs-paulo/teste_neurobeep)
-
-<sub>📌 Os repositórios públicos guardam as <b>primeiras versões</b> do aplicativo.
-O projeto evoluiu depois para uma arquitetura bem maior em Tauri, ainda não
-publicada.</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎀 NaraEdu
-**Boneca educacional para registro por voz**
-
-`Firmware e especificação de API · Laboratório TEAM, UFRN`
-
-O registro de ocorrências pedagógicas se perde porque exige da professora tempo
-que ela não tem durante a aula. A solução transfere o registro para um objeto já
-presente na sala: **um gesto, a voz, e um retorno imediato** — sem tela, sem
-aplicativo, sem exigir familiaridade técnica.
-
-Firmware em ESP32-S3 com fila local resiliente: nenhum relato se perde em escola
-com conectividade precária.
-
-<img src="https://img.shields.io/badge/ESP32--S3-E7352C?style=flat-square&logo=espressif&logoColor=white" />
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/PlatformIO-FF7F00?style=flat-square&logo=platformio&logoColor=white" />
-
-</td>
-<td width="50%" valign="top">
-
-### ⚙️ Automação de bombeamento
-**Projeto pessoal**
-
-`Hardware + mobile`
-
-Automação do motor que bombeia água de um poço para as caixas d'água de uma
-residência, com comunicação por rádio de longo alcance e controle pelo celular.
-
-Nasceu de um problema doméstico real — e é o tipo de projeto que me interessa:
-restrição concreta, usuário que não é técnico, e precisa funcionar todo dia.
-
-<img src="https://img.shields.io/badge/ESP-E7352C?style=flat-square&logo=espressif&logoColor=white" />
-<img src="https://img.shields.io/badge/LoRa-0F62FE?style=flat-square" />
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-
-[`→ repositório`](https://github.com/Marcs-paulo/Motor)
-
-</td>
-</tr>
-</table>
-
----
-
-## 🛠️ Stack
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-**Embarcado**
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=cpp,c,arduino&theme=dark">
-  <img src="https://skillicons.dev/icons?i=cpp,c,arduino&theme=light" alt="C++, C, Arduino" />
-</picture>
-
-<img src="https://img.shields.io/badge/ESP--IDF-E7352C?style=flat-square&logo=espressif&logoColor=white" />
-<img src="https://img.shields.io/badge/PlatformIO-FF7F00?style=flat-square&logo=platformio&logoColor=white" />
-
-</td>
-<td align="center" width="33%">
-
-**Aplicação**
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,react,tauri&theme=dark">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,tauri&theme=light" alt="TypeScript, JavaScript, React, Tauri" />
-</picture>
-
-<img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" />
-
-</td>
-<td align="center" width="33%">
-
-**Dados**
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,postgres,sqlite,firebase&theme=dark">
-  <img src="https://skillicons.dev/icons?i=py,postgres,sqlite,firebase&theme=light" alt="Python, PostgreSQL, SQLite, Firebase" />
-</picture>
-
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
-
-</td>
-</tr>
-</table>
-
-**Também trabalho com**
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=rust,go,php,git,github&theme=dark">
-  <img src="https://skillicons.dev/icons?i=rust,go,php,git,github&theme=light" alt="Rust, Go, PHP, Git, GitHub" />
-</picture>
-
-</div>
-
-> **A linguagem é a parte fácil.** Já entreguei em C++, TypeScript, Python, Rust e
-> PHP, e aprendo a próxima conforme o projeto pedir — o que se leva de um sistema
-> para outro é raciocínio sobre restrição, não sintaxe.
-
----
-
-## 📊 GitHub
-
-<div align="center">
-
-<img src="https://img.shields.io/github/stars/Marcs-paulo?style=for-the-badge&logo=github&logoColor=white&label=ESTRELAS&labelColor=0D1117&color=22C55E&affiliations=OWNER" alt="estrelas" />
-<img src="https://img.shields.io/github/followers/Marcs-paulo?style=for-the-badge&logo=github&logoColor=white&label=SEGUIDORES&labelColor=0D1117&color=6366F1" alt="seguidores" />
-<img src="https://img.shields.io/badge/REPOSIT%C3%93RIOS-22-0EA5E9?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="repositorios" />
-
-</div>
-
-Onde o código realmente está — e por quê:
-
-| Camada | Onde | Situação |
-|---|---|---|
-| **Firmware embarcado** (C++ / ESP-IDF) | SIS, NaraEdu | privado — PI e acordo de laboratório |
-| **Plataforma assistiva** (Rust / Tauri / TS) | NeuroBeep, versão atual | não publicada |
-| **Mobile e telemetria** (React Native) | [NeuroApp](https://github.com/Marcs-paulo/NeuroApp), [NeuroBeep](https://github.com/Marcs-paulo/NeuroBeep), [Motor](https://github.com/Marcs-paulo/Motor) | público — versões iniciais |
-
-<sub>O que aparece aqui é uma parte do que eu faço. Os projetos de maior peso
-técnico estão sob confidencialidade ou ainda não publicados — posso falar sobre
-arquitetura e decisões de projeto em conversa.</sub>
-
----
-
-## 🎓 Formação e experiência
-
-| Período | |
-|---|---|
-| **Em curso** | **Bacharelado em Engenharia de Computação** — UFRN, Natal/RN |
-| **2024** | **Estágio** — desenvolvimento de sistemas de irrigação na Agritech (Grupo Brisanet) |
-| **Concluído** | **Técnico em Redes de Computadores** — EEEP Prof.ª Maria Célia Pinheiro Falcão, Pereiro/CE |
-
-> O estágio na Agritech veio do próprio SIS: os alunos que desenvolveram o projeto
-> na escola técnica foram convidados pela empresa.
-
----
-
-## 🎯 O que me interessa
-
-Sistemas embarcados aplicados a problemas reais. Tenho preferência por projetos
-onde a restrição é dura — **pouca memória, sem rede, hardware barato, usuário que
-não é técnico**. É onde a engenharia aparece.
-
-Aberto a oportunidades em **sistemas embarcados**, **IoT** e **desenvolvimento
-mobile**.
-
-<div align="center">
 
 <br>
 
-<a href="mailto:mp.dantasjoaquim0102@gmail.com">
-  <img src="https://img.shields.io/badge/Vamos%20conversar-mp.dantasjoaquim0102@gmail.com-16A34A?style=for-the-badge&logo=minutemailer&logoColor=white" alt="contato" /></a>
+Estudei técnico em redes no interior do Ceará e hoje faço Engenharia de
+Computação na UFRN. Foi no técnico que peguei o primeiro microcontrolador, e
+desde então quase tudo que eu construí tem uma placa em algum lugar.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Marcs-paulo/Marcs-Paulo/main/assets/rodape-dark.svg">
-  <img src="https://raw.githubusercontent.com/Marcs-paulo/Marcs-Paulo/main/assets/rodape-light.svg" alt="Natal, RN — Brasil" width="100%">
-</picture>
+O que eu sei fazer, e o que eu gosto de fazer, é o produto inteiro: a placa, o
+firmware, o protocolo que ela usa para conversar, o servidor que recebe e o
+aplicativo que a pessoa abre. Já escrevi as duas pontas do mesmo sistema, e é
+por isso que eu costumo resolver o problema que fica no meio, entre quem faz
+hardware e quem faz software.
 
-</div>
+## Como eu trabalho
+
+**Meço antes de escolher.** Num projeto pessoal eu precisava de um modelo de
+busca semântica. Em vez de pegar o mais citado, montei um conjunto de perguntas
+reais e medi os candidatos contra um método lexical simples, que usei como piso.
+O modelo mais popular ficou 37% abaixo desse piso, e eu descartei. Prefiro
+perder um dia medindo a carregar uma escolha ruim por seis meses.
+
+**Registro por que, não só o quê.** Uma vez publiquei um número de desempenho
+que estava contaminado: eu não tinha reiniciado o serviço entre duas medições e
+a memória da GPU não foi liberada. Refiz o teste limpo, o número caiu de 15,9
+para 3,4, e eu corrigi o registro em vez de apagar. Quem for mexer depois
+precisa saber o que já foi tentado e o que deu errado.
+
+**Projeto para quem não é técnico.** O que eu construo vai parar na mão de
+agricultor, professora, terapeuta. Se a pessoa precisa de manual para usar, eu
+errei alguma coisa antes.
+
+## O que eu uso
+
+```
+todo dia      C++ e ESP-IDF · React Native · TypeScript · Python
+já entreguei  Rust · Tauri · Go · PHP
+dados         PostgreSQL · SQLite · Firebase · Supabase
+ferramentas   PlatformIO · Expo · Git
+```
+
+A linguagem é a parte fácil. Rust e Tauri eu aprendi porque o projeto pediu, e
+foi assim com quase todas as outras.
+
+## SIS · irrigação inteligente
+
+**Cofundador. Firmware, aplicativo e plataforma de dados, desde 2023.**
+
+Irrigação por gotejamento que decide sozinha quando e quanto irrigar, com base
+agronômica, em propriedade que não tem internet. Escrevi o firmware da placa, o
+aplicativo em React Native e a camada de dados, e conduzi os ensaios de campo
+com cultura de verdade.
+
+O projeto nasceu no ensino técnico e virou empresa. A Agritech, do Grupo
+Brisanet, chamou a equipe para estagiar por causa dele.
+
+O código é fechado. A propriedade intelectual é de cinco sócios e a patente
+ainda não foi depositada, então eu não publico o mecanismo. Arquitetura e
+decisões de projeto eu converso sem problema.
+
+## Outros projetos
+
+**NeuroBeep** · Plataforma de neurofeedback para robótica assistiva, cooperação
+UFRN–UFPE. Ela abre a robótica educacional para criança que não consegue
+executar o gesto que toda interface pressupõe. Cuido da parte que roda sem rede
+e do formato dos dados, para outro laboratório conseguir reaproveitar. Os
+repositórios públicos são as primeiras versões do aplicativo; hoje o projeto é
+bem maior, em Tauri, e ainda não foi publicado.
+[`app`](https://github.com/Marcs-paulo/NeuroApp) ·
+[`versões iniciais`](https://github.com/Marcs-paulo/NeuroBeep) ·
+[`firmware`](https://github.com/Marcs-paulo/teste_neurobeep)
+
+**NaraEdu** · Boneca que registra ocorrência de sala de aula por voz, no
+Laboratório TEAM da UFRN. A professora não tem tempo de anotar durante a aula,
+então o registro passa para um objeto que já está ali: um gesto, a voz, e
+pronto. Firmware em ESP32-S3 e a especificação da API.
+
+**Motor** · Automação da bomba que puxa água do poço para as caixas de casa,
+com rádio de longo alcance e controle pelo celular. Começou como problema
+doméstico e é o tipo de projeto que eu gosto: restrição concreta e alguém usando
+todo dia. [`repositório`](https://github.com/Marcs-paulo/Motor)
+
+## Formação
+
+**Engenharia de Computação** · UFRN, Natal/RN · em curso
+
+**Técnico em Redes de Computadores** · EEEP Prof.ª Maria Célia Pinheiro Falcão,
+Pereiro/CE · concluído
+
+**Estágio em desenvolvimento de sistemas de irrigação** · Agritech, Grupo
+Brisanet · 2024
+
+<br>
+
+Estou em Natal e aberto a vagas em sistemas embarcados, IoT e mobile. Se o
+problema envolve uma placa e alguém do outro lado esperando funcionar, me chama:
+**mp.dantasjoaquim0102@gmail.com**

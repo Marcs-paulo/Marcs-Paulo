@@ -1,15 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250"
      width="1000" height="250" role="img"
-     aria-label="Marcos Paulo Dantas Joaquim - Engenharia de Computacao, UFRN">
+     aria-label="Marcos Paulo Dantas Joaquim - Engenharia de Computacao, UFRN.
+                 Escreve da placa ao aplicativo.">
   <defs>
     <pattern id="g" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.1" fill="#000000" fill-opacity="0.07"/>
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#000000" fill-opacity="0.06"/>
     </pattern>
-    <linearGradient id="fio" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0"    stop-color="#15803D" stop-opacity="0"/>
-      <stop offset="0.5"  stop-color="#15803D" stop-opacity="1"/>
-      <stop offset="1"    stop-color="#4F46E5" stop-opacity="0"/>
-    </linearGradient>
   </defs>
 
   <rect width="1000" height="250" rx="16" fill="#FFFFFF"/>
@@ -18,105 +14,60 @@
         fill="none" stroke="#D0D7DE"/>
 
   <!-- identidade -->
-  <text x="46" y="82" font-family="'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700"
-        fill="#1F2328" letter-spacing="-0.6">Marcos Paulo Dantas Joaquim</text>
-  <text x="48" y="118" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#15803D"
+  <text x="46" y="88" font-family="'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif" font-size="32" font-weight="700"
+        fill="#1F2328" letter-spacing="-0.5">Marcos Paulo Dantas Joaquim</text>
+  <text x="48" y="120" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#15803D"
         letter-spacing="0.4">Engenharia de Computa&#231;&#227;o &#183; UFRN</text>
-  <text x="48" y="150" font-family="'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif" font-size="16.5" fill="#59636E">
-    Sistemas que precisam funcionar quando a infraestrutura falha.
+  <text x="48" y="158" font-family="'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif" font-size="18" fill="#1F2328"
+        fill-opacity="0.9">Escrevo da placa ao aplicativo.</text>
+  <text x="48" y="184" font-family="'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif" font-size="14" fill="#59636E">
+    Sem depender de outra equipe para fechar o produto.
   </text>
-  <g>
-    <rect x="48" y="172" width="128" height="26" rx="13"
-          fill="#15803D" fill-opacity="0.10" stroke="#15803D" stroke-opacity="0.35"/>
-    <text x="112.0" y="189.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5"
-          fill="#15803D" text-anchor="middle">C++ / ESP-IDF</text>
-  </g>
-  <g>
-    <rect x="188" y="172" width="118" height="26" rx="13"
-          fill="#15803D" fill-opacity="0.10" stroke="#15803D" stroke-opacity="0.35"/>
-    <text x="247.0" y="189.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5"
-          fill="#15803D" text-anchor="middle">React Native</text>
-  </g>
-  <g>
-    <rect x="318" y="172" width="116" height="26" rx="13"
-          fill="#15803D" fill-opacity="0.10" stroke="#15803D" stroke-opacity="0.35"/>
-    <text x="376.0" y="189.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5"
-          fill="#15803D" text-anchor="middle">Rust / Tauri</text>
-  </g>
 
-  <!-- painel: o padrao que se repete nos projetos -->
-  <rect x="586" y="34" width="384" height="182" rx="12"
+  <!-- painel: as camadas de um produto de hardware -->
+  <rect x="566" y="30" width="404" height="190" rx="12"
         fill="#F6F8FA" stroke="#D0D7DE"/>
-  <text x="604" y="58" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5"
-        fill="#59636E" letter-spacing="1.4">OFFLINE-FIRST</text>
 
-  <!-- janela sem rede -->
-  <rect x="688" y="70" width="184" height="126" rx="8"
-        fill="#B45309" fill-opacity="0.09"
-        stroke="#B45309" stroke-opacity="0.45" stroke-dasharray="4 4"/>
-  <text x="780" y="88" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#B45309"
-        text-anchor="middle" letter-spacing="1">SEM REDE</text>
+  <!-- o colchete que abraca as cinco -->
+  <path d="M614,54 h-8 v157 h8" fill="none" stroke="#15803D"
+        stroke-opacity="0.55" stroke-width="1.5"/>
+  <text x="598" y="132" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#15803D"
+        text-anchor="middle" transform="rotate(-90 598 132)"
+        letter-spacing="1">EU ESCREVO</text>
 
-  <!-- a linha e a fila -->
-  <line x1="604" y1="104" x2="956" y2="104" stroke="#D0D7DE" stroke-width="1.5"/>
-  <line x1="604" y1="104" x2="956" y2="104" stroke="url(#fio)" stroke-width="2">
-    <animate attributeName="stroke-opacity" values="0.25;0.9;0.25"
-             dur="3.6s" repeatCount="indefinite"/>
-  </line>
-  <line x1="724" y1="158" x2="836" y2="158" stroke="#15803D" stroke-width="1.5"
-        stroke-opacity="0.35" stroke-dasharray="3 4"/>
-  <text x="780" y="178" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#59636E"
-        text-anchor="middle">fila local</text>
-
-  <text x="604" y="96" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#59636E">dado</text>
-  <text x="956" y="96" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#15803D"
-        text-anchor="end">sincronizado</text>
-
-    <rect x="-4" y="-4" width="8" height="8" rx="2" fill="#15803D">
-      <animateMotion dur="4.4s" begin="0.0s" repeatCount="indefinite"
-                     path="M604,104 H688 C706,104 706,158 724,158 H836 C854,158 854,104 872,104 H956" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
-      <animate attributeName="opacity" dur="4.4s" begin="0.0s"
-               repeatCount="indefinite"
-               values="0;1;1;1;1;0" keyTimes="0;0.06;0.4;0.7;0.94;1"/>
-    </rect>
-    <rect x="-4" y="-4" width="8" height="8" rx="2" fill="#15803D">
-      <animateMotion dur="4.4s" begin="0.72s" repeatCount="indefinite"
-                     path="M604,104 H688 C706,104 706,158 724,158 H836 C854,158 854,104 872,104 H956" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
-      <animate attributeName="opacity" dur="4.4s" begin="0.72s"
-               repeatCount="indefinite"
-               values="0;1;1;1;1;0" keyTimes="0;0.06;0.4;0.7;0.94;1"/>
-    </rect>
-    <rect x="-4" y="-4" width="8" height="8" rx="2" fill="#15803D">
-      <animateMotion dur="4.4s" begin="1.44s" repeatCount="indefinite"
-                     path="M604,104 H688 C706,104 706,158 724,158 H836 C854,158 854,104 872,104 H956" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
-      <animate attributeName="opacity" dur="4.4s" begin="1.44s"
-               repeatCount="indefinite"
-               values="0;1;1;1;1;0" keyTimes="0;0.06;0.4;0.7;0.94;1"/>
-    </rect>
-    <rect x="-4" y="-4" width="8" height="8" rx="2" fill="#15803D">
-      <animateMotion dur="4.4s" begin="2.16s" repeatCount="indefinite"
-                     path="M604,104 H688 C706,104 706,158 724,158 H836 C854,158 854,104 872,104 H956" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
-      <animate attributeName="opacity" dur="4.4s" begin="2.16s"
-               repeatCount="indefinite"
-               values="0;1;1;1;1;0" keyTimes="0;0.06;0.4;0.7;0.94;1"/>
-    </rect>
-    <rect x="-4" y="-4" width="8" height="8" rx="2" fill="#15803D">
-      <animateMotion dur="4.4s" begin="2.88s" repeatCount="indefinite"
-                     path="M604,104 H688 C706,104 706,158 724,158 H836 C854,158 854,104 872,104 H956" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
-      <animate attributeName="opacity" dur="4.4s" begin="2.88s"
-               repeatCount="indefinite"
-               values="0;1;1;1;1;0" keyTimes="0;0.06;0.4;0.7;0.94;1"/>
-    </rect>
-    <rect x="-4" y="-4" width="8" height="8" rx="2" fill="#15803D">
-      <animateMotion dur="4.4s" begin="3.6s" repeatCount="indefinite"
-                     path="M604,104 H688 C706,104 706,158 724,158 H836 C854,158 854,104 872,104 H956" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
-      <animate attributeName="opacity" dur="4.4s" begin="3.6s"
-               repeatCount="indefinite"
-               values="0;1;1;1;1;0" keyTimes="0;0.06;0.4;0.7;0.94;1"/>
-    </rect>
-
-  <!-- nada se perde -->
-  <text x="604" y="206" font-family="'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif" font-size="12.5" fill="#59636E">
-    A rede cai. Nenhuma leitura se perde.
-  </text>
+  <rect x="638" y="54" width="308" height="25" rx="6"
+        fill="#15803D" fill-opacity="0.07" stroke="#15803D" stroke-opacity="0.28">
+    <animate attributeName="fill-opacity" values="0.07;0.20;0.07"
+             dur="4.5s" begin="1.8s" repeatCount="indefinite"/>
+  </rect>
+  <text x="654" y="71" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5"
+        fill="#1F2328" fill-opacity="0.86">Aplicativo</text>
+  <rect x="638" y="87" width="308" height="25" rx="6"
+        fill="#15803D" fill-opacity="0.07" stroke="#15803D" stroke-opacity="0.28">
+    <animate attributeName="fill-opacity" values="0.07;0.20;0.07"
+             dur="4.5s" begin="1.35s" repeatCount="indefinite"/>
+  </rect>
+  <text x="654" y="104" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5"
+        fill="#1F2328" fill-opacity="0.86">API e banco de dados</text>
+  <rect x="638" y="120" width="308" height="25" rx="6"
+        fill="#15803D" fill-opacity="0.07" stroke="#15803D" stroke-opacity="0.28">
+    <animate attributeName="fill-opacity" values="0.07;0.20;0.07"
+             dur="4.5s" begin="0.9s" repeatCount="indefinite"/>
+  </rect>
+  <text x="654" y="137" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5"
+        fill="#1F2328" fill-opacity="0.86">Protocolo de comunica&#231;&#227;o</text>
+  <rect x="638" y="153" width="308" height="25" rx="6"
+        fill="#15803D" fill-opacity="0.07" stroke="#15803D" stroke-opacity="0.28">
+    <animate attributeName="fill-opacity" values="0.07;0.20;0.07"
+             dur="4.5s" begin="0.45s" repeatCount="indefinite"/>
+  </rect>
+  <text x="654" y="170" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5"
+        fill="#1F2328" fill-opacity="0.86">Firmware</text>
+  <rect x="638" y="186" width="308" height="25" rx="6"
+        fill="#15803D" fill-opacity="0.07" stroke="#15803D" stroke-opacity="0.28">
+    <animate attributeName="fill-opacity" values="0.07;0.20;0.07"
+             dur="4.5s" begin="0.0s" repeatCount="indefinite"/>
+  </rect>
+  <text x="654" y="203" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5"
+        fill="#1F2328" fill-opacity="0.86">Placa</text>
 </svg>
