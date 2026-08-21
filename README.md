@@ -181,13 +181,23 @@ restrição concreta, usuário que não é técnico, e precisa funcionar todo di
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Marcs-paulo&show_icons=true&hide_border=true&theme=github_dark&icon_color=22C55E&title_color=22C55E&hide=issues" alt="estatísticas" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Marcs-paulo&layout=compact&hide_border=true&theme=github_dark&title_color=22C55E&hide=html,css,ruby,kotlin,swift,objective-c&exclude_repo=CursoReactNative,Discover,nlw-esports-explores,Atv_py,Tabuada" alt="linguagens" />
-
-<sub>O cartão de linguagens omite HTML e CSS e exclui repositórios de exercício,<br>
-para refletir o trabalho de engenharia em vez do volume de marcação.</sub>
+<img src="https://img.shields.io/github/stars/Marcs-paulo?style=for-the-badge&logo=github&logoColor=white&label=ESTRELAS&labelColor=0D1117&color=22C55E&affiliations=OWNER" alt="estrelas" />
+<img src="https://img.shields.io/github/followers/Marcs-paulo?style=for-the-badge&logo=github&logoColor=white&label=SEGUIDORES&labelColor=0D1117&color=6366F1" alt="seguidores" />
+<img src="https://img.shields.io/badge/REPOSIT%C3%93RIOS-22-0EA5E9?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="repositorios" />
 
 </div>
+
+Onde o código realmente está — e por quê:
+
+| Camada | Onde | Situação |
+|---|---|---|
+| **Firmware embarcado** (C++ / ESP-IDF) | SIS, NaraEdu | privado — PI e acordo de laboratório |
+| **Plataforma assistiva** (Rust / TS) | [NeuroBeep](https://github.com/Marcs-paulo/NeuroBeep) | público |
+| **Mobile e telemetria** (React Native) | [NeuroApp](https://github.com/Marcs-paulo/NeuroApp), [Motor](https://github.com/Marcs-paulo/Motor) | público |
+
+<sub>O que aparece aqui é uma parte do que eu faço. Os projetos de maior peso
+técnico estão sob confidencialidade — posso falar sobre arquitetura e decisões
+de projeto em conversa.</sub>
 
 ---
 
