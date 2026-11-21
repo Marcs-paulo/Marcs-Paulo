@@ -448,6 +448,28 @@ def grafico(d):
                              f'Gráfico de contribuições: {d["total"]} no último ano'))
 
 
+# ---- 7 · botoes de contato -------------------------------------------------------
+def contatos():
+    """Botoes LinkedIn e Gmail desenhados aqui (o icone do LinkedIn saiu do shields.io)."""
+    icones = {
+        # quadrado arredondado com "in"
+        "linkedin": (f'<rect x="16" y="11" width="22" height="22" rx="4" fill="{VERDE}"/>'
+                     f'<text x="27" y="28.5" text-anchor="middle" font-family="{SANS}" font-weight="600" '
+                     f'font-size="15" fill="{PRETO}">in</text>', "LinkedIn"),
+        # envelope com o "M" do Gmail
+        "gmail": (f'<rect x="15" y="13" width="24" height="18" rx="3" fill="none" stroke="{VERDE}" stroke-width="2"/>'
+                  f'<path d="M16 15 L27 24 L38 15" fill="none" stroke="{VERDE}" stroke-width="2.4" '
+                  f'stroke-linejoin="round"/>', "Gmail"),
+    }
+    for nome, (icone, rotulo) in icones.items():
+        w, h = 150, 44
+        corpo = (f'<rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="22" fill="{PRETO}" stroke="{VERDE_MEIO}"/>'
+                 f'<g class="e" {atraso(0.2)}>{icone}</g>'
+                 f'<text class="f" {atraso(0.3)} x="50" y="27.5" font-family="{MONO}" font-size="14" '
+                 f'letter-spacing="1" fill="{TEXTO}">{rotulo}</text>')
+        grava(f"contato-{nome}.svg", svg(w, h, corpo, ["sans-b", "mono"], rotulo, baixo=0))
+
+
 def info_github():
     """Estrelas dos repositorios e total de repositorios publicos; sem rede, segue sem eles."""
     estrelas, publicos = {}, None
@@ -486,3 +508,4 @@ if __name__ == "__main__":
     for i, (nome, desc, linha, repo) in enumerate(REPOS):
         cartao_repo(i, nome, desc, linha, estrelas.get(repo, 0))
     stack()
+    contatos()

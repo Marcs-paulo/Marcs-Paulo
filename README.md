@@ -13,7 +13,7 @@
 </div>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/marcos-paulo-dantas-joaquim-244319254">linkedin</a> &nbsp;/&nbsp; <a href="mailto:mp.dantasjoaquim0102@gmail.com">e-mail</a>
+<a href="https://www.linkedin.com/in/marcos-paulo-dantas-joaquim-244319254"><img src="./cards/contato-linkedin.svg" height="44" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="mailto:mp.dantasjoaquim0102@gmail.com"><img src="./cards/contato-gmail.svg" height="44" alt="Gmail" /></a>
 </p>
 
 <details>
