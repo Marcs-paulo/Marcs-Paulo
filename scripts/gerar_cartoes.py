@@ -371,7 +371,7 @@ REPOS = [
      "C++ · ESP32 · Flutter", None),
     ("NaraEdu", "Boneca com ESP32-S3 que registra ocorrências da sala por voz e gesto. Laboratório TEAM.",
      "C++ · ESP32-S3 · API", None),
-    ("NeuroBeep", "Crianças com limitação motora guiam um robô por neurofeedback. Cuido do firmware.",
+    ("NeuroBeep", "Crianças com limitação motora guiam um robô por neurofeedback.",
      "C++ · JavaScript · BLE", "NeuroBeep"),
 ]
 CORES_REPO = [VERDE, VERDE_VIVO, VERDE_MEIO]
