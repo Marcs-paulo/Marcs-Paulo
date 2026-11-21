@@ -1,104 +1,45 @@
+<!-- Cada cartão é um SVG animado desenhado por scripts/gerar_cartoes.py e atualizado todo dia
+     por .github/workflows/atualizar-perfil.yml. Visual preto e verde (verde da SIS, #60c460).
+     Os espaços já estão dentro dos SVGs: não deixe linha em branco neste bloco e mantenha os
+     cartões de uma mesma fileira numa linha só, sem espaço entre eles. -->
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Marcs-paulo/Marcs-Paulo/main/assets/hero-dark.svg">
-  <img src="https://raw.githubusercontent.com/Marcs-paulo/Marcs-Paulo/main/assets/hero-light.svg" alt="Marcos Paulo Dantas Joaquim — Full-Stack Embedded & IoT Engineer" width="100%">
-</picture>
-
-### **Full-Stack Embedded Systems & IoT Engineer**
-*Do silício ao aplicativo. Conectando hardware, firmware, protocolos e experiência do usuário.*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcos-paulo-dantas-joaquim-244319254)
-[![E-mail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mp.dantasjoaquim0102@gmail.com)
-[![Location](https://img.shields.io/badge/Localização-Natal--RN-blue?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
-
+<a href="https://www.linkedin.com/in/marcos-paulo-dantas-joaquim-244319254"><img src="./cards/capa.svg" width="100%" alt="Marcos Paulo Dantas Joaquim. Engenharia de Computação na UFRN. Hoje: firmware ESP32 e app da SIS, irrigação que decide quando regar sem internet." /></a><br>
+<img src="./cards/grafico.svg" width="100%" alt="Gráfico de contribuições em verde, atualizado todo dia" /><br>
+<img src="./cards/atividade.svg" width="100%" alt="Contribuições dos últimos 12 meses, por mês, com sequência e dia mais cheio" /><br>
+<a href="https://github.com/Marcs-paulo/Site-SIS"><img src="./cards/sis.svg" width="33.333%" alt="IRRIGAÇÃO: anos de SIS" /></a><img src="./cards/formacao.svg" width="33.333%" alt="FORMAÇÃO: Engenharia de Computação na UFRN, técnico em Redes de Computadores" /><a href="https://github.com/Marcs-paulo?tab=repositories"><img src="./cards/aberto.svg" width="33.333%" alt="CÓDIGO ABERTO: repositórios públicos" /></a><br>
+<img src="./cards/stack.svg" width="100%" alt="Stack: C++, ESP-IDF, ESP32-S3, PlatformIO, LoRa, BLE, Linux, TypeScript, React Native, Flutter, Tauri, Rust, Go, PHP, Python, PostgreSQL, SQLite, Supabase, Firebase, Delphi/Firebird" /><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./cards/titulo-codando-escuro.svg" /><img src="./cards/titulo-codando-claro.svg" width="100%" alt="O que estou codando" /></picture><br>
+<a href="https://github.com/Marcs-paulo/Site-SIS"><img src="./cards/repo-SIS.svg" width="33.333%" alt="SIS: irrigação por gotejamento que decide a rega sozinha, sem internet" /></a><img src="./cards/repo-NaraEdu.svg" width="33.333%" alt="NaraEdu: boneca com ESP32-S3 que registra ocorrências da sala por voz e gesto" /><a href="https://github.com/Marcs-paulo/NeuroBeep"><img src="./cards/repo-NeuroBeep.svg" width="33.333%" alt="NeuroBeep: crianças com limitação motora guiam um robô por neurofeedback" /></a>
 </div>
+
+<p align="center">
+<a href="https://www.linkedin.com/in/marcos-paulo-dantas-joaquim-244319254">linkedin</a> &nbsp;/&nbsp; <a href="mailto:mp.dantasjoaquim0102@gmail.com">e-mail</a> &nbsp;/&nbsp; <a href="https://github.com/Marcs-paulo/NeuroApp">neuroapp</a> &nbsp;/&nbsp; <a href="https://github.com/Marcs-paulo/teste_neurobeep">firmware neurobeep</a>
+</p>
+
+<details>
+<summary><b>Sobre mim, princípios e formação</b></summary>
 
 <br>
 
-## 💡 Sobre Mim & Proposta de Valor
+Estudo **Engenharia de Computação na UFRN** e sou **técnico em Redes de Computadores**. Na SIS cuido do firmware do ESP32, do app e da camada de dados; no NeuroBeep e no NaraEdu, do firmware.
 
-Sou Engenheiro de Computação em formação na **UFRN** com bagagem técnica sólida em Redes. Minha especialidade é fechar o ciclo completo de um produto físico-digital: **projetar a placa, escrever o firmware, desenhar o protocolo de comunicação, subir o servidor backend e entregar o aplicativo mobile.**
+**Princípios**
 
-A maioria dos problemas de engenharia em IoT surge no "limbo" entre a equipe de hardware e a de software. Como domino as duas pontas da arquitetura, elimino esse atrito, reduzindo tempo de desenvolvimento e falhas de integração.
+- **Decisão por dados.** Num benchmark de busca semântica, o modelo de IA mais popular ficou 37% abaixo de uma baseline lexical simples. Descartei em um dia.
+- **Histórico transparente.** Achei um teste meu contaminado por memória da GPU não liberada, refiz (15,9 → 3,4) e documentei o erro em vez de apagar.
+- **Feito para quem vai usar.** Quem usa meus sistemas são produtores rurais, professores e terapeutas. Se a tarefa do dia a dia pede manual, eu refaço a tela.
 
----
+**Projetos**
 
-## 🛠️ Stack Técnica
+- **SIS** (2023 – hoje), cofundador: irrigação por gotejamento autônoma e *offline-first*, do firmware ao app. Gerou o estágio na **Agritech (Grupo Brisanet)**. Código fechado (5 sócios, patente em andamento).
+- **NeuroBeep**: neurofeedback para crianças com restrição motora controlarem robôs educacionais. Cuido do firmware do robô e da latência.
+- **NaraEdu**, Laboratório TEAM (UFRN): boneca com ESP32-S3 que registra ocorrências em sala por voz e gestos. Firmware e contratos da API.
+- **Motor**: acionamento remoto da bomba do poço por rádio de longo alcance, com telemetria no celular.
 
-| Domínio | Tecnologias & Ferramentas |
-| :--- | :--- |
-| **Core / Diário** | `C++` • `ESP-IDF` • `TypeScript` • `React Native` • `Python` |
-| **Entregas & Projetos** | `Rust` • `Tauri` • `Go` • `PHP` |
-| **Banco de Dados** | `PostgreSQL` • `SQLite` • `Supabase` • `Firebase` |
-| **Tooling & Devops** | `PlatformIO` • `Expo` • `Git` • `Linux` |
+**Formação**
 
-> *Filosofia de Stack:* A linguagem é apenas uma ferramenta. Adapto a stack conforme as restrições de memória, processamento e conectividade do projeto.
+- Engenharia de Computação, UFRN
+- Técnico em Redes de Computadores, EEEP Prof.ª Maria Célia Pinheiro Falcão
+- Estágio em sistemas de irrigação IoT, Agritech / Grupo Brisanet (2024)
 
----
-
-## ⚙️ Princípios de Engenharia
-
-#### 📊 1. Decisão Baseada em Dados (Data-Driven)
-Não adoto tecnologias por hype. Em um benchmark recente para busca semântica, criei um conjunto de testes contra uma baseline lexical simples. O modelo de IA mais popular performou **37% abaixo do piso mínimo**. Descartei a solução em 1 dia, evitando meses de débito técnico.
-
-#### 🔍 2. Transparência Científica & Auditabilidade
-Identifiquei que um teste de desempenho publicado estava contaminado por falta de limpeza de memória na GPU. Em vez de apagar o registro, refiz o teste (ajustando a métrica de 15,9 para 3,4) e documentei o erro. Código confiável exige histórico transparente de falhas e aprendizados.
-
-#### 🎯 3. Design Orientado ao Usuário Final (Zero-Friction UX)
-Meus sistemas são feitos para produtores rurais, professores e terapeutas. Se o usuário precisa abrir um manual para executar uma ação simples no dia a dia, a falha foi de engenharia e design.
-
----
-
-## 🚀 Case Studies & Projetos de Destaque
-
-### 🌾 SIS — Irrigação Inteligente Offline
-**Cofundador | Firmware, App Mobile & Data Layer** *(2023 – Atual)*
-* Systema de irrigação de precisão por gotejamento totalmente autônomo com inteligência agronômica embotada para propriedades sem conectividade com a internet.
-* **Inovação:** Desenvolvimento de arquitetura *offline-first*, desde o firmware até a sincronização mobile e modelo preditivo de rega.
-* **Impacto Comercial:** O projeto gerou contratação/estágio direto pela **Agritech (Grupo Brisanet)**.
-* *(Propriedade intelectual de 5 sócios. Código fechado aguardando depósito de patente, mas arquitetura aberta a discussões técnicas).*
-
----
-
-### 🧠 NeuroBeep — Robótica Assistiva e Neurofeedback
-**Cooperação UFRN–UFPE | Engenharia de Firmware e Sincronização**
-* Interface de neurofeedback projetada para permitir que crianças com restrições motoras severas controlem sistemas robóticos educacionais sem a necessidade de gestos físicos.
-* **Atuação:** Responsável pelo subsistema de borda (sem rede), otimização de latência e padronização dos dados para reutilização em laboratórios parceiros.
-* [`App Mobile`](https://github.com/Marcs-paulo/NeuroApp) • [`Repositório Inicial`](https://github.com/Marcs-paulo/NeuroBeep) • [`Firmware Base`](https://github.com/Marcs-paulo/teste_neurobeep)
-
----
-
-### 🧸 NaraEdu — IoT Educacional & Processamento de Voz
-**Laboratório TEAM (UFRN) | Hardware & API Specs**
-* Dispositivo inteligente no formato de boneca que registra e categoriza ocorrências pedagógicas em sala de aula através de comandos de voz e gestos, eliminando a carga burocrática dos professores.
-* **Atuação:** Desenvolvimento do firmware em **ESP32-S3** e especificação completa dos contratos da API.
-
----
-
-### 🚰 Motor — Automação de Recursos Hídricos Domésticos
-**Projeto Pessoal / Solução de Problema Real**
-* Sistema de telemetria e acionamento remoto de bombas de poço artesiano via radiofrequência de longo alcance (LoRa/RF) com monitoramento em tempo real via celular.
-* [`Repositório do Código`](https://github.com/Marcs-paulo/Motor)
-
----
-
-## 🎓 Formação & Experiência
-
-* 🎓 **Engenharia de Computação** — Universidade Federal do Rio Grande do Norte (UFRN)
-* 🎓 **Técnico em Redes de Computadores** — EEEP Prof.ª Maria Célia Pinheiro Falcão
-* 💼 **Estágio em Sistemas de Irrigação IoT** — Agritech / Grupo Brisanet *(2024)*
-
----
-
-<div align="center">
-
-### 💬 Vamos construir algo juntos?
-
-Estou baseado em **Natal/RN** e disponível para oportunidades em **Sistemas Embarcados, IoT, Firmware e Desenvolvimento Mobile**.
-
-Se você tem um desafio que envolve hardware, conectividade e entrega de software de ponta a ponta:
-
-📩 **[Envie um e-mail](mailto:mp.dantasjoaquim0102@gmail.com)** | 🔗 **[Conecte-se no LinkedIn](https://www.linkedin.com/in/marcos-paulo-dantas-joaquim-244319254)**
-
-</div>
+</details>

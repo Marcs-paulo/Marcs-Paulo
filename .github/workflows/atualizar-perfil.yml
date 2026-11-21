@@ -1,0 +1,43 @@
+name: Atualizar perfil
+
+# Atualiza o gráfico de contribuições e os cartões com os números reais.
+# Roda todo dia, a cada push na main e quando você mandar pela aba Actions.
+
+"on":
+  schedule:
+    - cron: "17 9 * * *"   # ~06:17 em Natal (09:17 UTC)
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths-ignore: ["cards/**", "data/contribuicoes.json"]
+
+permissions:
+  contents: write
+
+jobs:
+  cartoes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install requests beautifulsoup4
+
+      - name: Buscar contribuições (calendário público, sem token)
+        run: python scripts/buscar_contribuicoes.py
+
+      - name: Desenhar os cartões
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/gerar_cartoes.py
+
+      - name: Salvar se mudou
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cards data/contribuicoes.json
+          git diff --cached --quiet || { git commit -m "Atualiza cartões do perfil [skip ci]"; git push; }
