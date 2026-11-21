@@ -13,29 +13,13 @@
 </div>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/marcos-paulo-dantas-joaquim-244319254">linkedin</a> &nbsp;/&nbsp; <a href="mailto:mp.dantasjoaquim0102@gmail.com">e-mail</a> &nbsp;/&nbsp; <a href="https://github.com/Marcs-paulo/NeuroApp">neuroapp</a> &nbsp;/&nbsp; <a href="https://github.com/Marcs-paulo/teste_neurobeep">firmware neurobeep</a>
+<a href="https://www.linkedin.com/in/marcos-paulo-dantas-joaquim-244319254">linkedin</a> &nbsp;/&nbsp; <a href="mailto:mp.dantasjoaquim0102@gmail.com">e-mail</a>
 </p>
 
 <details>
-<summary><b>Sobre mim, princípios e formação</b></summary>
+<summary><b>Sobre mim</b></summary>
 
 <br>
-
-Estudo **Engenharia de Computação na UFRN** e sou **técnico em Redes de Computadores**. Na SIS cuido do firmware do ESP32, do app e da camada de dados; no NeuroBeep e no NaraEdu, do firmware.
-
-**Princípios**
-
-- **Decisão por dados.** Num benchmark de busca semântica, o modelo de IA mais popular ficou 37% abaixo de uma baseline lexical simples. Descartei em um dia.
-- **Histórico transparente.** Achei um teste meu contaminado por memória da GPU não liberada, refiz (15,9 → 3,4) e documentei o erro em vez de apagar.
-- **Feito para quem vai usar.** Quem usa meus sistemas são produtores rurais, professores e terapeutas. Se a tarefa do dia a dia pede manual, eu refaço a tela.
-
-**Projetos**
-
-- **SIS** (2023 – hoje), cofundador: irrigação por gotejamento autônoma e *offline-first*, do firmware ao app. Gerou o estágio na **Agritech (Grupo Brisanet)**. Código fechado (5 sócios, patente em andamento).
-- **NeuroBeep**: neurofeedback para crianças com restrição motora controlarem robôs educacionais. Cuido do firmware do robô e da latência.
-- **NaraEdu**, Laboratório TEAM (UFRN): boneca com ESP32-S3 que registra ocorrências em sala por voz e gestos. Firmware e contratos da API.
-- **Motor**: acionamento remoto da bomba do poço por rádio de longo alcance, com telemetria no celular.
-
 **Formação**
 
 - Engenharia de Computação, UFRN
