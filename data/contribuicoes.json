@@ -1,7 +1,7 @@
 {
  "usuario": "Marcs-paulo",
- "gerado_em": "2026-11-21T20:02:56Z",
- "total": 198,
+ "gerado_em": "2026-11-22T17:09:06Z",
+ "total": 217,
  "dias_ativos": 48,
  "sequencia_atual": 1,
  "maior_sequencia": 4,
@@ -60,14 +60,10 @@
   },
   {
    "mes": "2026-11",
-   "total": 28
+   "total": 47
   }
  ],
  "dias": [
-  {
-   "data": "2025-11-22",
-   "total": 0
-  },
   {
    "data": "2025-11-23",
    "total": 0
@@ -1522,7 +1518,11 @@
   },
   {
    "data": "2026-11-21",
-   "total": 4
+   "total": 23
+  },
+  {
+   "data": "2026-11-22",
+   "total": 0
   }
  ]
 }
